@@ -17,30 +17,65 @@
   <div class="container">
     <section class="page-1" id="home">
         <h1>Portfolio</h1>
+        <img src="img/pfp.png.jpg" alt="Foto van maker">
         <p>Welkom op mijn portfolio</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi asperiores debitis dicta enim facere ipsa maiores molestiae natus officiis quia ratione reiciendis, repudiandae saepe similique sit soluta temporibus vitae.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi asperiores debitis dicta enim facere ipsa maiores molestiae natus officiis quia ratione reiciendis, repudiandae saepe similique sit soluta temporibus vitae.</p>
+        <p>Welkom. dit is mijn portfolio website. dit dient als een middel voor bedrijven om een kijkje te krijgen over wie ik nou daadwerkelijk ben en wat voor persoon zij eventueel aannemen.</p>
         <div class="socials">
-        <a href="#"><img src="img/linkedin.png" alt="linkedin"></a>
-        <a href="#"><img src="img/instagram.png" alt="instagram"></a>
-        <a href="#"><img src="img/facebook.png" alt="facebook"></a>
+            <a href="#"><img src="img/linkedin.png" alt="linkedin"></a>
+            <a href="#"><img src="img/instagram.png" alt="instagram"></a>
+            <a href="#"><img src="img/facebook.png" alt="facebook"></a>
         </div>
     </section>
-    <section class="page-2" id="ervaring">
-        <h2>Ervaring</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi asperiores debitis dicta enim facere ipsa maiores molestiae natus officiis quia ratione reiciendis, repudiandae saepe similique sit soluta temporibus vitae.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi asperiores debitis dicta enim facere ipsa maiores molestiae natus officiis quia ratione reiciendis, repudiandae saepe similique sit soluta temporibus vitae.</p>
-    </section>
+      <section class="page-2" id="ervaring">
+          <h2>Ervaring</h2>
+          <div class="project-container">
+              <img src="img/project-2.png" alt="project-2" class="project-foto's">
+              <p>Dit was het eerste project dat ik ooit heb gemaakt. hierbij moesten we een portfolio website maken met de beginnende kennis die wij hadden om te laten zien wat wij tot dat punt geleerd hadden.</p>
+          </div>
+          <div class="project-container">
+              <img src="img/project-3.png" alt="project-3" class="project-foto's">
+              <p>dit was de eerste keer dat wij met JS moesten werken en toen leerden wij gewoon de 'basics' van alles en hoe wij ermee over weg moesten komen.</p>
+          </div>
+          <div class="project-container">
+              <img src="img/project-1.png" alt="project-1" class="project-foto's">
+              <p>Bij dit project moesten wij voor het eerst werken met JS. En moesten wij dit implementeren in een project door een: Quiz en talenttree te maken.</p>
+          </div>
+      </section>
       <section class="page-3" id="over-mij">
           <h2>Over mij</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi asperiores debitis dicta enim facere ipsa maiores molestiae natus officiis quia ratione reiciendis, repudiandae saepe similique sit soluta temporibus vitae.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi asperiores debitis dicta enim facere ipsa maiores molestiae natus officiis quia ratione reiciendis, repudiandae saepe similique sit soluta temporibus vitae.</p>
+          <div class="card-container">
+              <div class="card">
+                  <h3>Over mij</h3>
+                  <p>Hoi, ik ben Jaiden Dorchain, een beginnende software developer bij Techniek College Rotterdam Alexander. Ik ben erg gemotiveerd en streef ernaar om dingen af te maken waar ik ook al aan ben begonnen. Ik hou van de sportschool en ga hier ook vaak naartoe, verder game ik natuurlijk ook wat en vind ik het ook leuk om wat met vrienden te doen.</p>
+              </div>
+              <div class="card">
+                  <h3>Opleiding</h3>
+                  <p>Ik doe nu de opleiding Software Developer MBO niveau 4 bij techniek college rotterdam. dit doe ik sinds het schooljaar van 2023-2024. Hierbij doe ik het 3 jarige traject en ik vind deze opleiding erg leuk. want we leren van alles over allerlei onderwerpen niet alleen maar over de opleiding zelf.</p>
+              </div>
+              <div class="card">
+                  <h3>Toekomst</h3>
+                  <p>Na het afronden van deze opleiding ga ik naar het HBO om daar de opleiding cyber security te volgen. Bij welke school weet ik nog niet helemaal zeker maar ik denk aan de Hogeschool Utrecht.</p>
+              </div>
+          </div>
       </section>
       <section class="page-4" id="contact">
-            <h2>Contact</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi asperiores debitis dicta enim facere ipsa maiores molestiae natus officiis quia ratione reiciendis, repudiandae saepe similique sit soluta temporibus vitae.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi asperiores debitis dicta enim facere ipsa maiores molestiae natus officiis quia ratione reiciendis, repudiandae saepe similique sit soluta temporibus vitae.</p>
+          <form action="/submit_contact_form" method="post" class="contact-form">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" required></textarea>
+              <button type="submit">Send Message</button>
+          </form>
       </section>
+      <footer>
+          <div class="container">
+              <p>Email: <a href="mailto:jaidendor010@gmail.com">jaidendor010@gmail.com</a></p>
+              <p>Phone: <a href="tel:+31 6 51490324">+31 6 51490324</a></p>
+              <p>Regio: Rotterdam, Zuid-Holland</p>
+          </div>
+      </footer>
   </div>
 </body>
 </html>
